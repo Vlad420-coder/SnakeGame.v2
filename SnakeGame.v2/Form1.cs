@@ -83,8 +83,8 @@ namespace SnakeGame.v2
                 Snake1.coords[0] = new Point((int)x, (int)y);
             for (int i =1; i<Snake1.coords.Count; i++)
             {
-               x=Snake1.coords[i].X;
-                y = Snake1.coords[0].Y;
+               x = Snake1.coords[i].X;
+               y = Snake1.coords[i].Y;
 
             }
            
